@@ -34,7 +34,7 @@
                      <abbr>JSON</abbr>
                   </a>
                   feed
-                              (<a href='https://aboutfeeds.com'>what’s a feed?</a>)
+                                                                  (<a href='https://aboutfeeds.com'>what’s a feed?</a>)
                   {%- if subscribe.email -%}
                      , or
                      <a href='{{ subscribe.email }}'>via email</a>
@@ -70,7 +70,7 @@
             <a href='{{ inputPath | historyLink }}'>here</a>)
          {%- endif -%}
          .
-               Spotted a typo?
+                                 Spotted a typo?
          <a href='{{ inputPath | editLink }}'>Submit a correction!</a>
       </span>
       {%- if tags.length > 0 %}
@@ -87,17 +87,13 @@
       <div class='section-content'>
          <p>
             Have a thought to share about this?
-            <a href='mailto:hello@chriskrycho.com?subject={{ title }}'>Send me an email!</a>
+            <a href='mailto:khattar.manan@gmail.com?subject={{ title }}'>Send me an email!</a>
             (It’s way better than traditional comments.)
          </p>
       </div>
       <span class='section-label'>About:</span>
       <div class='section-content'>
          {% include 'blocks/short-about.njk' %}
-      </div>
-      <span class='section-label'>Support:</span>
-      <div class='section-content'>
-         {% include 'blocks/sponsor-me.njk' %}
       </div>
    </footer>
 {% endmacro %}
