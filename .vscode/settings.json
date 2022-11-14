@@ -2,7 +2,8 @@
    "files.associations": {
       "*.html": "jinja-html"
    },
-   "editor.rulers": [90],
+   "editor.rulers": [ 
+   90],
    "files.exclude": {
       "**/.git": true,
       "**/.svn": true,
@@ -11,5 +12,7 @@
       "**/.DS_Store": true,
       "public": true
    },
-   "typescript.tsdk": "node_modules/typescript/lib"
+   "typescript.tsdk": "node_modules/typescript/lib",
+   "editor.wordWrap": "wordWrapColumn",
+   "editor.wordWrapColumn": 125
 }

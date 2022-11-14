@@ -1,7 +1,7 @@
 {
-   "name": "v5.chriskrycho.com",
+   "name": "v1.notes.manankhattar.com",
    "version": "1.0.0",
-   "description": "The fifth version of chriskrycho.com.",
+   "description": "The first version of notes.manankhattar.com.",
    "main": "index.js",
    "repository": "https://github.com/chriskrycho/v5.chriskrycho.com",
    "author": "Chris Krycho <hello@chriskrycho.com>",
