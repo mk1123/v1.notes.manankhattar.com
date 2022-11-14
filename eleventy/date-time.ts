@@ -7,7 +7,7 @@ const maybeDateTime = (parse: Parse, input: string): DateTime | null => {
    return parsed.isValid ? parsed : null;
 };
 
-export const TZ = { zone: 'America/Denver' };
+export const TZ = { zone: 'America/Los_Angeles' };
 
 // Same parsing rules as 11ty itself uses: ISO or SQL, nothing else.
 export const toDateTime = (input: string): DateTime => {
